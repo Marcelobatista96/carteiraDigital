@@ -41,6 +41,7 @@ public class Cadastrar {
             }catch (IOException f){
                 JOptionPane.showMessageDialog(null, "Erro. Favor, contatar o suporte em:\n(11)99999-9999");
             }
+	    writer.close();
             System.exit(0);
 }
 }
