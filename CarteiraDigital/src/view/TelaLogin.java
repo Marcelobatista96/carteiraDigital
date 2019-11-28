@@ -13,6 +13,8 @@ import control.*;
  */
 public class TelaLogin {
     public void Logando(){
-        JOptionPane.showInputDialog("Bem vindo, sr(a) "+ login.nome +".\nFsvor, insira sua senha:");
+        String = senha;
+        senha = JOptionPane.showInputDialog("Bem vindo, sr(a) "+ login.nome +".\nFsvor, insira sua senha:");
+        Validar(senha);
     }
 }
