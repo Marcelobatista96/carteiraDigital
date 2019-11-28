@@ -12,5 +12,7 @@ package control;
  */
  
  public class Validacao{
-    public static 
+    public static String Validar(code){
+    
+  }
  }
